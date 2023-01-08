@@ -6,7 +6,7 @@ int main()
 {
     int Of_Health = 0x0;//offest
     int Ad_Health = 0x0;//Address
-    int wr_Hleath = 1337;
+    int wr_Hleath = 1337;//value
     DWORD health = (DWORD)(Ad_Health + Of_Health);
     HWND hwnd = FindWindowA(NULL, "NameWindowGame");
     if (hwnd == NULL)
